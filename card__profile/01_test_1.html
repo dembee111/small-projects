@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f1f1f1;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .card-container {
+            width: 300px;
+            height: 430px;
+            background: #fff;
+            border-radius: 6px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, .1);
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .upper-container {
+            height: 150px;
+            background: #7f00ff;
+        }
+
+        .image-container {
+            background: white;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            padding: 5px;
+            transform: translate(100px, 100px);
+        }
+
+        .image-container img {
+            background: white;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
+        .lower-container {
+            height: 280px;
+            background: #fff;
+            padding: 20px;
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        .lower-container h3,
+        h4 {
+            line-height: .6;
+            font-weight: lighter;
+        }
+
+        .lower-container h4 {
+            color: #7f00ff;
+            opacity: .6;
+            font-weight: bold;
+        }
+
+        .lower-container p {
+            font-size: 16px;
+            color: gray;
+            margin-bottom: 30px;
+        }
+
+        .lower-container .btn {
+            padding: 12px 20px;
+            background-color: #7f00ff;
+            border: none;
+            color: white;
+            border-radius: 30px;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all .3s ease-in;
+        }
+
+        .lower-container .btn:hover {
+            background-color: transparent;
+            color: #7f00ff;
+            border: 2px solid #7f00ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="upper-container">
+            <div class="image-container">
+                <img src="./realtor-2.jpeg" alt="pro">
+            </div>
+        </div>
+        <div class="lower-container">
+            <div>
+                <h3>Alaina Wick</h3>
+                <h4>Front-end Developer</h4>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam pariatur expedita et?</p>
+            </div>
+            <div>
+                <a href="!#" class="btn">View profile</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
